@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://Max02well:NbaDFL2LFAEu87QV@crud.lebmvgg.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Crud"
+    "Mongo_URL"
   )
   .then(() => {
     console.log("Connected to the database");
